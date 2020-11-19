@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<resume>
+	<contact_info>
+		<name>Paul Bentham</name>
+		<address>33 w 45th Street, NY NY 122320</address>		
+		<phone>232-222-9088</phone>		
+		<email>pablo@benthumb.org</email>		
+		<website>www.555.org</website>		
+	</contact_info>
+	<career>
+		<experience>
+			<company>
+				<c_name>Pgi-Pubs</c_name>
+				<location>New York</location>
+				<dates>January 2, 1990 - January 3, 1999</dates>
+				<job_title>Security Guard</job_title>
+				<job_desc></job_desc>
+				<details>Played security guard day shift...</details>	
+			</company>
+			<company>
+				<c_name>Morris Planning</c_name>
+				<location>Carlsbad, MN</location>
+				<dates>August 1999 - September 2001</dates>
+				<job_title>Big Dog</job_title>
+				<job_desc></job_desc>
+				<details>lots of things...</details>	
+			</company>
+	</experience>
+	</career>
+	<education>
+		<school>
+			<s_name>Hard Knocks</name>
+			<dates>1966 - present</dates>
+			<major>Schmoozing</major>
+			<degree>BS</degree>
+		</school>
+		<school>
+			<s_ame>Hard Knocks</name>
+			<dates>1966 - present</dates>
+			<major>Schmoozing</major>
+			<degree>BS</degree>
+		</school>
+	</education>
+</resume>

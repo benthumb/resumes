@@ -1,0 +1,46 @@
+exit
+tst_lst = [(1,2),(3,4),(5,6),(7,8)]
+n_lst = list(itertools.repeat(['x','y'], 20))
+import itertools
+n_lst = list(itertools.repeat(['x','y'], 20))
+n_lst
+2nd_tst_lst = tst_lst.copy()
+snd_tst_lst = tst_lst.copy()
+comb_lst = tst_lst + snd_tst_lst
+com_lst
+comb_lst
+so_lst = sorted(comb_lst, key=lambda tup: tup[1])
+so_lst
+rgs = [lis[1] for lis in so_lst]
+rgs
+tst_lst2 = [(h1,1),(h2,10),(h3,20),(h4,30),(h5,40),(h6,50),(h7,60)]
+tst_lst2 = [("h1",1),("h2",10),("h3",20),("h4",30),("h5",40),("h6",50),("h7",60)]
+snd_tst_lst2 = tst_lst2.copy()
+comb_lst2 = tst_lst2 + snd_tst_lst2
+comb_lst2
+so_lst2 = sorted(comb_lst2, key=lambda tup: tup[1])
+so_lst2
+rgs2 = [lis[1] for lis in so_lst2]
+rgs2
+head, *tail = tst_lst2
+head
+tail
+tail[0].[1]
+tail[0]
+tail[0][1]
+from collections import namedtuple
+ExperienceDetails = namedtuple("ExperienceDetails", 'heading bullet_point meta line_no')
+fd = ExperienceDetails("asdlkfas",jffj","fkfkfkfk",22)
+fd = ExperienceDetails("asdlkfas","jffj","fkfkfkfk",22)
+fd2 = ExperienceDetails("ffffff","jf333","fk",234)
+nlst = []
+nlst.append(fd)
+nlst.append(fd2)
+nlst
+nslt[0][line_no]
+nlst[0][line_no]
+nlst[0].line_no
+nlst[1].line_no
+%save 1142020_hack_session.txt
+import readline
+readline.write_history_file('20201104_hack_session_resume.txt')

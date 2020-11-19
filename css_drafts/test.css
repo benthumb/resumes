@@ -1,0 +1,57 @@
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    empty-cells:hide; 
+}
+
+thead th:nth-child(1) {
+    background: #f2f2f2;
+    text-align: left;
+    font-family: ＭＳ 明朝;MS Mincho;
+    font-size: 11px;
+}
+
+tr.sub-head
+{
+    background-color: #f2f2f2;
+    font-family: ＭＳ 明朝;MS Mincho;
+    font-size: 10px;
+}
+
+td.kikan
+{
+    width: 100px;
+}
+
+ul.jisseki-details
+{
+    font-family: ＭＳ 明朝;MS Mincho;
+    font-size: 10px;
+    list-style-type: none;
+}
+
+.jigyou-emp-status, .job_dates, .job_position, .jisseki/*.date-position ,  .pr, , .overview*/
+{
+    font-family: ＭＳ 明朝;MS Mincho;
+    font-size: 10px;
+}
+/*
+thead th:nth-child(3) {
+    background: green;
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    background: orange;
+    width: 35%;
+}
+
+th, td {
+    padding: 20px;
+}
+*/
+

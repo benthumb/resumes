@@ -1,0 +1,21 @@
+>>> line: 会社名：Burnwood Enterprises, Inc.、ニューヨーク州（米) 2018年12月-現在
+>>> line: 会社名：[契約] NSD International, Inc.、[MUFG]ジャージーシティー（米) 2018年8月-2018年11月（四ヶ月）
+>>> line: 会社名：[契約] NSD International, Inc.、[SMBC]ニューヨーク市（米) 2018年2月-2018年7月（六ヶ月）
+>>> line: 会社名：[契約] NSD International, Inc.、[Mizuho]ジャージーシティー（米) 2017年3月-2017年10月（八ヶ月）
+>>> line: 会社名：[契約] NSD International, Inc.、[MUFG]ジャージーシティー（米) 2016年5月-2016年9月（五ヶ月）
+>>> line: 会社名：[契約] NSD International, Inc.、[MUFG]ジャージーシティー（米) 2014年6月-2015年10月（一年四ヶ月）
+>>> line: 会社名：[FL] firewallconsultants.com、シアトル市（米) 2013年1月-2013年3月（三ヶ月）
+>>> line: 会社名：[契約] PSP(Pacific Software Publishing)、シアトル市（米) 2012年7月-2012年11月（四ヶ月）
+>>> line: 会社名：[FL] ITTO(International Tropical Timber Organization)、（米・日本) 2010年-2011年（一年）
+>>> line: 会社名：[契約] Volvo IT Japan、上尾・大宮埼玉（日本) 2008年12月-2009年8月(九ヶ月）
+>>> line: 会社名：[契約] 国際テクノロジーセンター、東京（日本) 2007年6月-2008年8月(1年2ヵ月）
+>>> line: 会社名：[FL] Bit Machines、（米・日本) 2007年1月-2007年（五ヶ月）
+>>> line: 会社名：[契約] Nikon Systems, Inc.、横浜(日本) 勤務期間：2006年4月-2006年12月(9ヶ月）
+>>> line: 会社名：[契約] Recruit Media Communications、東京(日本) 勤務期間：2006年2月-2006年3月（1ヶ月半）
+>>> line: 会社名：[FL] MG Technologies and Investment Ltd.、横浜(日本) 勤務期間：2005年10月-現在
+>>> line: 会社名：[契約] Forth Space Inc.・Sony PCL、東京(日本) 勤務期間：2005年5月-2005年10月（5ヶ月）
+>>> line: 会社名：[FL] Foundation World, Inc.、ニューヨーク市(米) 勤務期間: 2004年4月-2005年2月（10ヶ月）
+>>> line: 会社名：[FL] NYC Lisp Users Group、ニューヨーク市(米) 勤務期間: 2003年7月-2003年11月（5ヶ月）
+>>> line: 会社名：[FL] Arnold Information Technology、ニューヨーク市(米) 勤務期間: 2003年5月-2003年6月（1ヶ月）
+>>> line: 会社名：[契約] Lexelnet、ニューヨーク市(米) 勤務期間: 2001年10月-2003年4月（1年6ヶ月）
+>>> line: 会社名：[契約] Goldman Sachs、ニューヨーク市(米) 勤務期間: 2000年8月-2001年8月（1年）

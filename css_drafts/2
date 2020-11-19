@@ -1,0 +1,60 @@
+div {
+	border: 1px solid #000000;
+        font-family: ＭＳ 明朝;MS Mincho;
+}
+
+.resume_jpn {
+	display: grid;
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-auto-rows: minmax(25, auto);
+}
+
+.exp_heading {
+	grid-column: 1 / 4;
+	grid-row : 1;
+        background-color: #f2f2f2;
+        font-size: 11px;
+}
+
+.business_type {
+	grid-column: 1 / 3;
+	grid-row : 2;
+        font-size: 10px;
+}
+
+.employment_type {
+	grid-column: 3;
+	grid-row : 2;
+        font-size: 10px;
+}
+
+.emp_duration_hd {
+	grid-column: 1;
+	grid-row : 3;
+        background-color: #f2f2f2;
+        font-size: 10px;
+}
+
+.emp_details_hd {
+	grid-column: 2 / 4;
+	grid-row : 3;
+        background-color: #f2f2f2;
+        font-size: 10px;
+}
+
+.emp_duration {
+	grid-column: 1;
+	grid-row : 4 / 6;
+        font-size: 10px;
+}
+
+.emp_synopsis {
+	grid-column: 2 / 4;
+	grid-row : 4;
+}
+
+.emp_details {
+	grid-column: 2 / 4;
+	grid-row : 5;
+}

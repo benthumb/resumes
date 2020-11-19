@@ -1,0 +1,11 @@
+>>> lines starting with 会社名 matched...
+
+>>> line: 会社名：ITTO(International Tropical Timber Organization)、（米・日本) 2010年-2011年（一年）
+
+
+>>> lines starting with half-width dates matched...
+
+>>> line: 2010年-2011年（一年）:写真ライブラリーのシステム移行・更新
+
+
+ExperienceIndex(co_name='ITTO(International Tropical Timber Organization)', locale='', dates='2010年-2011年（一年）\n', synopsis='写真ライフラリーのシステム更新及びデータ移行プロジェクト、SE担当。\n', details='')

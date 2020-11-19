@@ -1,0 +1,93 @@
+
+.resume_jpn_tp {
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 600px 125px;
+	grid-auto-rows: minmax(25, auto);
+
+}
+
+.resume_jpn_btm {
+	display: grid;
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*border-width: 1px 0 0 0;*/
+	/*gap: 10px;*/
+	grid-template-columns: 90px 635px;
+	grid-auto-rows: minmax(25, auto);
+}
+
+.exp_heading {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 1 / 3;
+	grid-row : 1;
+        background-color: #f2f2f2;
+        font-size: 11px;
+}
+
+.business_type {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1 / 3;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.employment_type {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 2;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_duration_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row : 3;
+        background-color: #f2f2f2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_details_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	grid-row : 3;
+        background-color: #f2f2f2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_duration {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row : 4 / 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_synopsis {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_details {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
