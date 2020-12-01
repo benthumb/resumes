@@ -1,3 +1,80 @@
+table{
+	width: 650px;
+}
+
+table, td, th{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+th{
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 11px;
+}
+
+td{
+	font-family: "Noto Sans CJK JP";
+        font-size: 14px;
+}
+
+.year {
+	font-family: "Noto Sans CJK JP";
+        font-size: 12px;
+	width: 10%;
+}
+
+.month {
+	font-family: "Noto Sans CJK JP";
+        font-size: 12px;
+	width: 5%;
+}
+
+.resume_jpn_intro, .resume_jpn_pr{
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 725px;
+	/*grid-auto-rows: minmax(25, auto);*/
+}
+
+.title{
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 14px;
+    text-align: center
+}
+
+.date, .name{
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 9px;
+    text-align: right
+}
+
+h3, .exp_overview_p, .exp_lst_intro {
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.li_pr{
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 9px;
+}
+
+.b-point{
+    margin: 10px;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+}
+
+.p-graph{
+    list-style-type: none;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+}
 
 .resume_jpn_tp {
 	display: grid;
@@ -87,6 +164,7 @@
 	border: solid #000000;
 	border-width: 0 1px 1px 0;
 	grid-column: 2;
+	padding-right: 15px;
 	grid-row : 5;
     	font-family: "ＭＳ 明朝;MS Mincho";
         font-size: 10px;

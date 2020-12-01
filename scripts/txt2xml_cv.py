@@ -143,7 +143,7 @@ def xml_res_add_experience(xml_res, exp_lst):
             if ln != "" and ln != "\n" and ln != "\n\n":
                 print(">>>>>>>>>>>>> passed blank line test...")
                 if re.match(r'\*', ln):
-                    detail_ln.text = ln
+                    detail_ln.text = ln[1:]
                     detail_ln.set('type', 'bp')
                 elif re.match(r"キーワード", ln):
                     detail_ln.text = ln
@@ -170,7 +170,7 @@ def xmlize():
     # eduction
     education = ET.SubElement(resume, 'education')
 
-    source_file = codecs.open("text_rez.txt", mode="r", encoding="utf-8")
+    source_file = codecs.open("../txt_docs_drafts/text_rez.txt", mode="r", encoding="utf-8")
 
     # Initialize regex for experience (company names etc.)
     delimiters = "：", "、", "（米) ", "（日本) ", "（米・日本) ", "(米) "
@@ -219,7 +219,7 @@ def xmlize():
     if resume:
         xml_res_add_experience(resume, co_idx_lst)
         myresume = ET.tostring(resume)
-        myfile = open("res_cv_out_20201110.xml", "wb")
+        myfile = open("res_cv_out_20201130.xml", "wb")
         myfile.write(myresume)
         sys.stdout.write(str(resume))
         print(resume)
