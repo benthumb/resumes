@@ -1,13 +1,15 @@
 
 E
-xml_drafts/res_cv.xml,0/a/0a736e1ce27523fc649c83c4b36368dfe86bb51a
-E
-xml_drafts/cv_res.xml,e/4/e4c7d2f69c4fb24bab8b799927e0052ce3997daa
-E
 scripts/txt2xml_cv.py,9/5/95c7fbcc33b3bfcb49bc1f9585a08f3f69a2f80b
-=
-git_setup.txt,3/9/39870aa2d9c03d8c2d30071aacedb1c11e55d617
-8
-saxon.sh,0/9/09880013c882ecddb80da1c764cc2bd2230d1395
 I
 css_drafts/grid_style.css,3/e/3ef2d11150be173faf470682952ead68c459fefa
+P
+ html_drafts/res_cv_20201130.html,8/3/83c2d48a0248d27a7028e9bb0e09b94e6b95f85a
+U
+%txt_docs_drafts/companies_details.txt,e/8/e8e99de0ab15dc06e986d9fb0da5128b25e6ae34
+Q
+!txt_docs_drafts/output_source.txt,f/7/f784a91a608fd216d4aa8b8fc28545443760d587
+Y
+)txt_docs_drafts/overview_translations.txt,6/6/6611f0ec5dbde9372f953b985b29ec4045844944
+L
+txt_docs_drafts/text_rez.txt,d/c/dcb180bb2fed18364acb9fc1d7d6a645260d21a0

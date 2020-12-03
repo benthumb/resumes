@@ -1,9 +1,9 @@
 
-;python:S1256"Remove this commented out code.(üêÏúşÿÿÿÿ
-Gpython:S1481É")Remove the unused local variable "n_val".(‹¨Ùşÿÿÿÿ
-qpython:S3776E"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(¼‰ûÿÿÿÿÿ
-Bpython:S1481¦")Remove the unused local variable "phone".(«àÂ
-Dpython:S1481¨"+Remove the unused local variable "website".(Ş€Ä›
-Gpython:S1481Ã")Remove the unused local variable "major".(«Ëó„ùÿÿÿÿ
 7python:S125‡"Remove this commented out code.(ƒØÈ‰
+;python:S1256"Remove this commented out code.(üêÏúşÿÿÿÿ
+Bpython:S1481¦")Remove the unused local variable "phone".(«àÂ
+qpython:S3776E"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(¼‰ûÿÿÿÿÿ
 Cpython:S1481Ä"*Remove the unused local variable "degree".(öÛ¦¸
+Gpython:S1481É")Remove the unused local variable "n_val".(‹¨Ùşÿÿÿÿ
+Gpython:S1481Ã")Remove the unused local variable "major".(«Ëó„ùÿÿÿÿ
+Dpython:S1481¨"+Remove the unused local variable "website".(Ş€Ä›
