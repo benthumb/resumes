@@ -2,6 +2,7 @@
 from collections import namedtuple
 from recordtype import recordtype
 from enum import IntEnum
+import random
 import re
 import sys
 import codecs
@@ -119,14 +120,18 @@ def add_experience_details(con_det_lst, idx_lst):
 def xml_res_add_experience(xml_res, exp_lst):
     experience = ET.SubElement(xml_res, 'experience')
     for exp_i in exp_lst:
+        random_id = ''.join([str(random.randint(0, 999)).zfill(3) for _ in range(2)])
         title_desc = exp_i.synopsis.split("、")
         company = ET.SubElement(experience, 'company')
         c_name = ET.SubElement(company, 'c_name')
+        c_bg = ET.SubElement(company, 'c_bg')
         location = ET.SubElement(company, 'location')
         dates = ET.SubElement(company, 'dates')
         job_title = ET.SubElement(company, 'job_title')
         job_desc = ET.SubElement(company, 'job_desc')
         details = ET.SubElement(company, 'details')
+        company.set('co_id', random_id)
+        c_bg.text = "DEFAULT PLACEHOLDER: COMPANY STATISTICS"
         c_name.text = exp_i.co_name
         location.text = exp_i.locale
         dates.text = exp_i.dates
@@ -219,7 +224,7 @@ def xmlize():
     if resume:
         xml_res_add_experience(resume, co_idx_lst)
         myresume = ET.tostring(resume)
-        myfile = open("res_cv_out_20201130.xml", "wb")
+        myfile = open("../xml_drafts/rireki_cv_20201208.xml", "wb")
         myfile.write(myresume)
         sys.stdout.write(str(resume))
         print(resume)

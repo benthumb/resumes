@@ -1,3 +1,46 @@
+.update_form{
+  background-color: #f0fcfc;
+  color: black;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+/* Red border */
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+/* Dashed red border */
+hr.new2 {
+  border-top: 1px dashed red;
+}
+
+/* Dotted red border */
+hr.new3 {
+  border-top: 1px dotted red;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 1px solid red;
+}
+
+/* Large rounded green border */
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
 table{
 	width: 650px;
 }
@@ -8,24 +51,24 @@ table, td, th{
 }
 
 th{
-    	font-family: "ＭＳ 明朝;MS Mincho";
-        font-size: 11px;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 11px;
 }
 
 td{
 	font-family: "Noto Sans CJK JP";
-        font-size: 14px;
+    font-size: 14px;
 }
 
 .year {
 	font-family: "Noto Sans CJK JP";
-        font-size: 12px;
+    font-size: 12px;
 	width: 10%;
 }
 
 .month {
 	font-family: "Noto Sans CJK JP";
-        font-size: 12px;
+    font-size: 12px;
 	width: 5%;
 }
 
