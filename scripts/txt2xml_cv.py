@@ -8,6 +8,7 @@ import sys
 import codecs
 import xml.etree.ElementTree as ET
 
+
 class ContactInfo(IntEnum):
     NAME = 0
     ADDRESS = 1
@@ -130,19 +131,19 @@ def xml_res_add_experience(xml_res, exp_lst):
         job_desc = ET.SubElement(company, 'job_desc')
         details = ET.SubElement(company, 'details')
         emp_co_industry_feat = ET.SubElement(company, 'emp_co_industry_feat')
-        emp_co_industry_feat.text = '上場'  
+        emp_co_industry_feat.text = '上場'
         emp_co_business = ET.SubElement(company, 'emp_co_business')
-        emp_co_business.text = '情報システム開発'  
+        emp_co_business.text = '情報システム開発'
         emp_co_no_emp = ET.SubElement(company, 'emp_co_no_emp')
-        emp_co_no_emp.text = '1000名' 
+        emp_co_no_emp.text = '1000名'
         emp_co_work_term = ET.SubElement(company, 'emp_co_work_term')
-        emp_co_work_term.text = '10年' 
+        emp_co_work_term.text = '10年'
         emp_co_salary = ET.SubElement(company, 'emp_co_salary')
-        emp_co_salary.text = '1000万円' 
+        emp_co_salary.text = '1000万円'
         emp_co_salary_add = ET.SubElement(company, 'emp_co_salary_add')
-        emp_co_salary_add.text = '残業手当' 
+        emp_co_salary_add.text = '残業手当'
         emp_co_housing_cost = ET.SubElement(company, 'emp_co_housing_cost')
-        emp_co_housing_cost.text = '寮・社宅の自己負担　100万／月' 
+        emp_co_housing_cost.text = '寮・社宅の自己負担　100万／月'
 
         company.set('co_id', random_id)
         c_bg.text = "DEFAULT PLACEHOLDER: COMPANY STATISTICS"
@@ -178,31 +179,30 @@ def xmlize():
     comment = ET.Comment('Text to XML Conversion: docx -> txt -> xml')
     resume.append(comment)
 
-    
     # --------------------------------- contact info
     contact_info = ET.SubElement(resume, 'contact_info')
 
     # MAIN PANE 
     name = ET.SubElement(contact_info, 'name')
-    name.set('uid','0000000')
+    name.set('uid', '0000000')
     name_furigana = ET.SubElement(contact_info, 'name_furigana')
     name_furigana.text = 'ベンサム　ポール'
     name_kanji = ET.SubElement(contact_info, 'name_kanji')
-    name_kanji.text ='ベンサム　ポール'
+    name_kanji.text = 'ベンサム　ポール'
     gender = ET.SubElement(contact_info, 'gender')
     gender.text = '男'
-    b_date = ET.SubElement(contact_info,'b_date')
-    b_date.text ='1966年9月12日' 
-    age = ET.SubElement(contact_info,'age')
-    age.text = '54' 
-    addr_furigana = ET.SubElement(contact_info,'addr_furigana')
+    b_date = ET.SubElement(contact_info, 'b_date')
+    b_date.text = '1966年9月12日'
+    age = ET.SubElement(contact_info, 'age')
+    age.text = '54'
+    addr_furigana = ET.SubElement(contact_info, 'addr_furigana')
     addr_furigana.text = 'サイタマケンハスダシニシシンシュク2−11−6'
     zip_code = ET.SubElement(contact_info, 'zip_code')
     zip_code.text = '349-0141'
     addr_kanji = ET.SubElement(contact_info, 'addr_kanji')
     addr_kanji.text = '埼玉県蓮田市西新宿２−１１−６'
     alt_addr_hometown_ph = ET.SubElement(contact_info, 'alt_addr_hometown_ph')
-    alt_addr_hometown_ph.text = '080-7588-8737' 
+    alt_addr_hometown_ph.text = '080-7588-8737'
     alt_addr_hometown_kanji = ET.SubElement(contact_info, 'alt_addr_hometown_kanji')
     alt_addr_hometown_kanji.text = 'alt_addr_hometown_kanji'
 
@@ -213,10 +213,10 @@ def xmlize():
     fax.text = 'FAX'
     ans_svs_bool = ET.SubElement(contact_info, 'ans_svs_bool')
     ans_svs_bool.text = '有'
-    family_msg_svs_bool = ET.SubElement(contact_info,'family_msg_svs_bool')
+    family_msg_svs_bool = ET.SubElement(contact_info, 'family_msg_svs_bool')
     family_msg_svs_bool.text = '可'
-    employer_notify_bool = ET.SubElement(contact_info,'employer_notify_bool') 
-    employer_notify_bool.text = '否'  
+    employer_notify_bool = ET.SubElement(contact_info, 'employer_notify_bool')
+    employer_notify_bool.text = '否'
     work_ph = ET.SubElement(contact_info, 'work_ph')
     mobile_ph = ET.SubElement(contact_info, 'mobile_ph')
     email = ET.SubElement(contact_info, 'email')
@@ -228,13 +228,13 @@ def xmlize():
     # --------------------------------- transportation 
     # detail_ln.set('type', 'bp') - attribute ...
     close_sta_line = ET.SubElement(contact_info, 'close_sta_line')
-    close_sta_line.text = '宇都宮線　蓮田駅' 
+    close_sta_line.text = '宇都宮線　蓮田駅'
     close_sta_line_dst = ET.SubElement(contact_info, 'close_sta_line_dst')
-    close_sta_line_dst.text = '自転車・バス　10分' 
+    close_sta_line_dst.text = '自転車・バス　10分'
     living_arr = ET.SubElement(contact_info, 'living_arr')
-    living_arr.text = '家族と同居' 
+    living_arr.text = '家族と同居'
     work_area_pref = ET.SubElement(contact_info, 'work_area_pref')
-    work_area_pref.text = '東京 (23区) 東京 (23区外) 埼玉県　条件次第外' 
+    work_area_pref.text = '東京 (23区) 東京 (23区外) 埼玉県　条件次第外'
 
     # --------------------------------- certifications / licensure 
     rireki_certs_lang_lvl = ET.SubElement(resume, 'rireki_certs_lang_lv')
@@ -350,5 +350,6 @@ def xmlize():
         myfile.write(myresume)
         sys.stdout.write(str(resume))
         print(resume)
+
 
 xmlize()
