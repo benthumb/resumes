@@ -94,26 +94,26 @@ emp_co_work_loc	varchar
 );
 
 INSERT INTO company VALUES ('909670','[FL]Burnwood Enterprises, Inc.','ニューヨーク州','該当なし','2018年12月-現在','遺言執行者及びPM担当。','-- 不動産会社に向けて遺品整理','該当なし','該当なし','該当なし','該当なし','該当なし','残業などの手当:該当なし','寮・社宅などの自己負担:該当なし','該当なし');
- INSERT INTO company VALUES ('995626','[契約] NSD International, Inc.','[MUFG]ジャージーシティー','nsd.co.jp','2018年8月-2018年11月（四ヶ月）','BA担当。','-- AML（マネーロンダリング対策）システムの内部審査','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','3,467名','四ヶ月','130万円/月','残業などの手当:該当なし','寮・社宅などの自己負担:該当なし','該当なし');
- INSERT INTO company VALUES ('327920','[契約] NSD International, Inc.','[SMBC]ニューヨーク市','nsd.co.jp','2018年2月-2018年7月（六ヶ月）','PM担当。','-- カナダ支店のグローバル決済システム更改;フェドワイヤー取引の直接加盟への移行','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','3,467名','六ヶ月','100万円/月','残業などの手当:該当なし','寮・社宅などの自己負担:該当なし','該当なし');
- INSERT INTO company VALUES ('969238','[契約] NSD International, Inc.','[Mizuho]ジャージーシティー','nsd.co.jp','2017年3月-2017年10月（八ヶ月）','PM担当。','-- 持株会社のFR-Y9Cおよび2052aレポートシステムの次期リリース開発','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','3,467名','八ヶ月','110万円/月','残業などの手当:該当なし','寮・社宅などの自己負担:該当なし','該当なし');
- INSERT INTO company VALUES ('643993','[契約] NSD International, Inc.','[MUFG]ジャージーシティー','nsd.co.jp','2016年5月-2016年9月（五ヶ月）','PM担当。','-- メインフレーム・デコミッション・プロジェクト','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('375198','[契約] NSD International, Inc.','[MUFG]ジャージーシティー','nsd.co.jp','2014年6月-2015年10月（一年四ヶ月）','PM担当。','-- 記帳システム更改プロジェクト','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('397560','[FL] firewallconsultants.com','シアトル市','firewallconsultants.com','2013年1月-2013年3月（三ヶ月）','SE担当。','-- 情報システムセキュリティーのポータルサイト開発','上場','ITセキュリティ','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('808221','[契約] PSP(Pacific Software Publishing)','シアトル市','pspinc.com','2012年7月-2012年11月（四ヶ月）','SE担当。','-- 過渡期のシステム運用','上場','ソフトウェア設計・開発会社として、企業のコスト削減及び収益の拡大を支援します。コンセプトから最終製品まで。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('678534','[FL] ITTO(International Tropical Timber Organization)','東京','itto.int','2010年1月-2011年1月（一年）','SE担当。','-- 写真ライフラリーのシステム更新及びデータ移行プロジェクト','上場','国際熱帯木材機関（ ITTO ）は熱帯林資源の保全と持続可能な経営、利用、そして持続的かつ合法的に管理された熱帯木材資源の貿易拡大と多角化を促進している政府間組織です。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('863710','[契約] UDトラックス株式会社','上尾・大宮埼玉','udtrucks.com','2008年12月-2009年8月（九ヶ月）','SE担当。','-- テレマティックス・システムの移行及び更新プロジェクト','上場','大型トラックの開発・生産・輸出・販売、中・小型トラックの販売、自動車用部品の製造・販売、トラック・バスの整備・補修部品などの販売、ボルボ・ブランド製品の輸入・販売','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('728208','[契約] 国際テクノロジーセンター','東京','ktcc.co.jp','2007年6月-2008年8月（一年二ヶ月）','新人のPGスタッフの育成指導','-- 法人顧客のワークフローシステム保守・改修・機能追加','上場','ITコンサルティング、アプリケーション開発、インフラ構築、運用保守、エンジニアリングサービス、建設コンサルタント・DX推進化事業','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('563336','[FL] Bit Machines','該当なし','該当なし','2007年1月-2007年5月（五ヶ月）','脆弱性立証例開発','-- Javaサーブレットフレームワーク 「NetPath」とFLEXとのテクノロジー組み合わせの可能性を検討しつつ','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('928464','[契約] Nikon Systems, Inc.','横浜(日本)','www.nsi.nikon.com','2006年4月-2006年12月（九ヶ月）','要件アナリスト担当。','-- S7cワイヤレスカメラと同カメラの周辺「COOLPIX CONNECT」電子メール経由写真共有サービス開発','上場','ソフトウェア、ハードウェア、及びシステムの受託開発、パッケージ・ソフトウェアの開発、販売、システムの導入、保守及び運用・管理の受託、各種解析および解析シミュレーターの開発、テクニカルドキュメントの制作及び翻訳、情報システム開発: 資本金：5,000万円（株式会社ニコン100%出資）、売上高：9,955百万円（2019年度実績:）従業員数：473名（2020年4月1日現在）','473名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('702084','[契約] Recruit Media Communications','東京(日本)','rco.recruit.co.jp','2006年2月-2006年3月（一ヶ月半）','ウェブ上のコンテンツ管理システム開発','-- 進学情報のウェブサイトにおける','上場','リクルートグループにおいて、クライアントの集客ソリューションから、Webマーケティング、メディアの制作・流通・宣伝、カスタマーサポートまでを担当します: 資本金：一億円、従業員数：1007名（社員：762名　専門社員：159名　契約社員：69名　アルバイト：17名） ／2020年4月','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('923521','[FL] MG Technologies and Investment Ltd.','横浜(日本)','該当なし','2005年10月-2005年12月（二ヶ月）','SE/ウェブマスター担当。','-- 英語学校のウェブサイト・学習管理システム（Learning Management System/LMS)','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('036420','[契約] Forth Space Inc.・Sony PCL','東京(日本)','該当なし','2005年5月-2005年10月（五ヶ月）','SE担当。','-- SCORM*対応の学習管理システム開発','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('561436','[FL] Foundation World, Inc.','ニューヨーク市','foundationworld.com',': 2004年4月-2005年2月（十ヶ月）','SE/ウェブマスター担当。','-- CGアティストのPRウェブサイトの保守と更新およびコンテンツ・マネジメント','上場','ニューヨークと東京を中心に活動するクリエイティブプロダクションです。ワールドワイドなクライアント及びクリエイターと築いてきたネットワークと経験をもとに、広告や雑誌の撮影コーディネート、カルチャー／アート／ファッションをテーマにしたイベントの企画／運営、世界で活躍するクリエイティブなアーティストとクライアント間のコラボレーションプロジェクトも行っております。特に撮影コーディネイトではトップフォトグラファー、スーパーモデル、スタイリスト等のキャスティング及び、ニューヨークと東京を中心としたワールドワイドなロケーションハンティングも行い、これまでにファッション、コスメティックから自動車まで幅広いクライアントの皆様にご利用いただいています。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('325071','[FL] NYC Lisp Users Group','ニューヨーク市','該当なし',': 2003年7月-2003年11月（五ヶ月）','PG・研究・企画担当。','-- ロボカップ・コンペのシミュレーションリーグ部門の入選チーム開発','上場','教育・非営利団体','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('471207','[FL] Arnold Information Technology','ニューヨーク市','該当なし',': 2003年5月-2003年6月（一ヶ月）','取材・執筆担当。','-- テクノロジーセクター市場専門の投資家に向けたリサーチレポート','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('221084','[契約] Lexelnet','ニューヨーク市','該当なし',': 2001年10月-2003年4月（一年半）','SE担当。','-- 翻訳サービスのオンライン市場の構築対応のウェブアプリケーションフレームワーク開発','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
- INSERT INTO company VALUES ('273556','[契約] Goldman Sachs','ニューヨーク市','goldmansachs.com',': 2000年8月-2001年8月（一年）','SE担当。','-- グローバル・リスク・マネジメントのシステム統合化プロジェクト','上場','ザ・ゴールドマン・サックス・グループ・インクは投資銀行業務、証券業務および投資運用業務を中心に企業、金融機関、政府機関、個人など多岐にわたるお客様を対象に幅広い金融サービスを提供している世界有数の金融機関です。1869年に創業、ニューヨークを本拠地として世界の主要な金融市場に拠点を擁しています。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('995626','[契約] NSD International, Inc.','[MUFG]ジャージーシティー','nsd.co.jp','2018年8月-2018年11月（四ヶ月）','BA担当。','-- AML（マネーロンダリング対策）システムの内部審査','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','3,467名','四ヶ月','130万円/月','残業などの手当:該当なし','寮・社宅などの自己負担:該当なし','該当なし');
+INSERT INTO company VALUES ('327920','[契約] NSD International, Inc.','[SMBC]ニューヨーク市','nsd.co.jp','2018年2月-2018年7月（六ヶ月）','PM担当。','-- カナダ支店のグローバル決済システム更改;フェドワイヤー取引の直接加盟への移行','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','3,467名','六ヶ月','100万円/月','残業などの手当:該当なし','寮・社宅などの自己負担:該当なし','該当なし');
+INSERT INTO company VALUES ('969238','[契約] NSD International, Inc.','[Mizuho]ジャージーシティー','nsd.co.jp','2017年3月-2017年10月（八ヶ月）','PM担当。','-- 持株会社のFR-Y9Cおよび2052aレポートシステムの次期リリース開発','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','3,467名','八ヶ月','110万円/月','残業などの手当:該当なし','寮・社宅などの自己負担:該当なし','該当なし');
+INSERT INTO company VALUES ('643993','[契約] NSD International, Inc.','[MUFG]ジャージーシティー','nsd.co.jp','2016年5月-2016年9月（五ヶ月）','PM担当。','-- メインフレーム・デコミッション・プロジェクト','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('375198','[契約] NSD International, Inc.','[MUFG]ジャージーシティー','nsd.co.jp','2014年6月-2015年10月（一年四ヶ月）','PM担当。','-- 記帳システム更改プロジェクト','上場','システム分析・設計の受託、プログラム開発及び受託、コンピュータ室運営管理、ソフトウエアプロダクト:売上高 65,063百万円（連結） [2020年3月期]','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('397560','[FL] firewallconsultants.com','シアトル市','firewallconsultants.com','2013年1月-2013年3月（三ヶ月）','SE担当。','-- 情報システムセキュリティーのポータルサイト開発','上場','ITセキュリティ','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('808221','[契約] PSP(Pacific Software Publishing)','シアトル市','pspinc.com','2012年7月-2012年11月（四ヶ月）','SE担当。','-- 過渡期のシステム運用','上場','ソフトウェア設計・開発会社として、企業のコスト削減及び収益の拡大を支援します。コンセプトから最終製品まで。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('678534','[FL] ITTO(International Tropical Timber Organization)','東京','itto.int','2010年1月-2011年1月（一年）','SE担当。','-- 写真ライフラリーのシステム更新及びデータ移行プロジェクト','上場','国際熱帯木材機関（ ITTO ）は熱帯林資源の保全と持続可能な経営、利用、そして持続的かつ合法的に管理された熱帯木材資源の貿易拡大と多角化を促進している政府間組織です。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('863710','[契約] UDトラックス株式会社','上尾・大宮埼玉','udtrucks.com','2008年12月-2009年8月（九ヶ月）','SE担当。','-- テレマティックス・システムの移行及び更新プロジェクト','上場','大型トラックの開発・生産・輸出・販売、中・小型トラックの販売、自動車用部品の製造・販売、トラック・バスの整備・補修部品などの販売、ボルボ・ブランド製品の輸入・販売','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('728208','[契約] 国際テクノロジーセンター','東京','ktcc.co.jp','2007年6月-2008年8月（一年二ヶ月）','新人のPGスタッフの育成指導','-- 法人顧客のワークフローシステム保守・改修・機能追加','上場','ITコンサルティング、アプリケーション開発、インフラ構築、運用保守、エンジニアリングサービス、建設コンサルタント・DX推進化事業','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('563336','[FL] Bit Machines','該当なし','該当なし','2007年1月-2007年5月（五ヶ月）','脆弱性立証例開発','-- Javaサーブレットフレームワーク 「NetPath」とFLEXとのテクノロジー組み合わせの可能性を検討しつつ','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('928464','[契約] Nikon Systems, Inc.','横浜(日本)','www.nsi.nikon.com','2006年4月-2006年12月（九ヶ月）','要件アナリスト担当。','-- S7cワイヤレスカメラと同カメラの周辺「COOLPIX CONNECT」電子メール経由写真共有サービス開発','上場','ソフトウェア、ハードウェア、及びシステムの受託開発、パッケージ・ソフトウェアの開発、販売、システムの導入、保守及び運用・管理の受託、各種解析および解析シミュレーターの開発、テクニカルドキュメントの制作及び翻訳、情報システム開発: 資本金：5,000万円（株式会社ニコン100%出資）、売上高：9,955百万円（2019年度実績:）従業員数：473名（2020年4月1日現在）','473名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('702084','[契約] Recruit Media Communications','東京(日本)','rco.recruit.co.jp','2006年2月-2006年3月（一ヶ月半）','ウェブ上のコンテンツ管理システム開発','-- 進学情報のウェブサイトにおける','上場','リクルートグループにおいて、クライアントの集客ソリューションから、Webマーケティング、メディアの制作・流通・宣伝、カスタマーサポートまでを担当します: 資本金：一億円、従業員数：1007名（社員：762名　専門社員：159名　契約社員：69名　アルバイト：17名） ／2020年4月','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('923521','[FL] MG Technologies and Investment Ltd.','横浜(日本)','該当なし','2005年10月-2005年12月（二ヶ月）','SE/ウェブマスター担当。','-- 英語学校のウェブサイト・学習管理システム（Learning Management System/LMS)','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('036420','[契約] Forth Space Inc.・Sony PCL','東京(日本)','該当なし','2005年5月-2005年10月（五ヶ月）','SE担当。','-- SCORM*対応の学習管理システム開発','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('561436','[FL] Foundation World, Inc.','ニューヨーク市','foundationworld.com',': 2004年4月-2005年2月（十ヶ月）','SE/ウェブマスター担当。','-- CGアティストのPRウェブサイトの保守と更新およびコンテンツ・マネジメント','上場','ニューヨークと東京を中心に活動するクリエイティブプロダクションです。ワールドワイドなクライアント及びクリエイターと築いてきたネットワークと経験をもとに、広告や雑誌の撮影コーディネート、カルチャー／アート／ファッションをテーマにしたイベントの企画／運営、世界で活躍するクリエイティブなアーティストとクライアント間のコラボレーションプロジェクトも行っております。特に撮影コーディネイトではトップフォトグラファー、スーパーモデル、スタイリスト等のキャスティング及び、ニューヨークと東京を中心としたワールドワイドなロケーションハンティングも行い、これまでにファッション、コスメティックから自動車まで幅広いクライアントの皆様にご利用いただいています。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('325071','[FL] NYC Lisp Users Group','ニューヨーク市','該当なし',': 2003年7月-2003年11月（五ヶ月）','PG・研究・企画担当。','-- ロボカップ・コンペのシミュレーションリーグ部門の入選チーム開発','上場','教育・非営利団体','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('471207','[FL] Arnold Information Technology','ニューヨーク市','該当なし',': 2003年5月-2003年6月（一ヶ月）','取材・執筆担当。','-- テクノロジーセクター市場専門の投資家に向けたリサーチレポート','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('221084','[契約] Lexelnet','ニューヨーク市','該当なし',': 2001年10月-2003年4月（一年半）','SE担当。','-- 翻訳サービスのオンライン市場の構築対応のウェブアプリケーションフレームワーク開発','上場','情報システム開発','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
+INSERT INTO company VALUES ('273556','[契約] Goldman Sachs','ニューヨーク市','goldmansachs.com',': 2000年8月-2001年8月（一年）','SE担当。','-- グローバル・リスク・マネジメントのシステム統合化プロジェクト','上場','ザ・ゴールドマン・サックス・グループ・インクは投資銀行業務、証券業務および投資運用業務を中心に企業、金融機関、政府機関、個人など多岐にわたるお客様を対象に幅広い金融サービスを提供している世界有数の金融機関です。1869年に創業、ニューヨークを本拠地として世界の主要な金融市場に拠点を擁しています。','1000名','10年','1000万円','残業手当','寮・社宅の自己負担　100万／月','該当なし');
 
 create table if not exists company_det (
 	co_id integer REFERENCES company(co_id),
@@ -123,8 +123,7 @@ create table if not exists company_det (
 );
 
 INSERT INTO company_det VALUES ('909670','不動産会社に向けて遺品整理、遺言執行者及びPM担当','bp','0');
-INSERT INTO company_det VALUES ('909670','2013年から2019年にかけて、日本の銀行での活動とほぼ同時期を網羅した、賃貸物件(亡母の一部占めた資産) を所有する不動産会社(バーンウッド・エンタープライズ社)
-の清算プロジェクトの管理を担当しました。','bp','1');
+INSERT INTO company_det VALUES ('909670','2013年から2019年にかけて、日本の銀行での活動とほぼ同時期を網羅した、賃貸物件(亡母の一部占めた資産) を所有する不動産会社(バーンウッド・エンタープライズ社) の清算プロジェクトの管理を担当しました。','bp','1');
 INSERT INTO company_det VALUES ('909670','また、不動産資産の売却調整に加え、負債を棚卸し、返済計画を実施し、一般に事業の金融面の整理も行いました。','bp','2');
 INSERT INTO company_det VALUES ('909670','同会社の営業中の時期に、私は家主とプロパティマネージャーとして携わり、新しい暖房システムやその他のインフラのアップグレードの購入と設置から修理のサービス申請への対応まで、その運営の日々の事務を処理しました。','bp','3');
 INSERT INTO company_det VALUES ('909670','キーワード:諸利害関係者間の交渉、進捗状況の追跡・報告、プロジェクト・マネジメント、不動産管理、資産計画','kw','4');
@@ -179,8 +178,7 @@ INSERT INTO company_det VALUES ('678534','ExifToolのコマンドラインツー
 INSERT INTO company_det VALUES ('678534','関係データを統合したXMLスキマの設計、','bp','4');
 INSERT INTO company_det VALUES ('678534','ExifToolを利用した一括処理のルーチンの実装、','bp','5');
 INSERT INTO company_det VALUES ('678534','プロファイラを使用して、性能を測る上、メモリの利用制限の課題分析を実施した','bp','6');
-INSERT INTO company_det VALUES ('678534','キーワード:ExifTool, Perl, XML,
-XMLスキマ設計、プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','7');
+INSERT INTO company_det VALUES ('678534','キーワード:ExifTool, Perl, XML, XMLスキマ設計、プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','7');
 INSERT INTO company_det VALUES ('863710','実績:','pp','0');
 INSERT INTO company_det VALUES ('863710','Javaベースのメッセージ・クライアントの開発に当たって','pp','1');
 INSERT INTO company_det VALUES ('863710','単体・結合テストの実装に伴い、作業:・進捗状況報告書の作成、* ソリューション機能拡張の実装、バグ追跡・解消、','bp','2');
@@ -189,22 +187,18 @@ INSERT INTO company_det VALUES ('863710','海外ベンダーのソリューシ�
 INSERT INTO company_det VALUES ('863710','ウェブ系のダッシュボードの開発に対して、','pp','5');
 INSERT INTO company_det VALUES ('863710','表示画面の開発用のライブラリのフィーチャー棚卸・利用の説明、','bp','6');
 INSERT INTO company_det VALUES ('863710','検索条件絞込みメニューなどの表示画面及びフロント・エンドの実装','bp','7');
-INSERT INTO company_det VALUES ('863710','キーワード:JBoss, Spring, Struts/JSP, Ant, Eclipse, Java Messaging Service, Ibatis,
-JavaScript, プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、テスト設計・実践','kw','8');
+INSERT INTO company_det VALUES ('863710','キーワード:JBoss, Spring, Struts/JSP, Ant, Eclipse, Java Messaging Service, Ibatis, JavaScript, プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、テスト設計・実践','kw','8');
 INSERT INTO company_det VALUES ('728208','実績:','pp','0');
 INSERT INTO company_det VALUES ('728208','Java ベースのワーク・フロー・システムの保守、バグ追跡・修正、','bp','1');
 INSERT INTO company_det VALUES ('728208','法人顧客に対して、ソフト開発効率化の上、版管理導入、','bp','2');
 INSERT INTO company_det VALUES ('728208','新卒社員のため、オブジェクト指向的なプログラミングなどの教育指導、','bp','3');
 INSERT INTO company_det VALUES ('728208','SaaS 形式の製品プロトタイプの実装、','bp','4');
 INSERT INTO company_det VALUES ('728208','社内情報共有推進の上、「OpenPNE」 という SNS を導入した','bp','5');
-INSERT INTO company_det VALUES ('728208','キーワード:Oracle, Postgres, MySQL, SQL, JDBC, ActionScript, JavaScript,
-Java/Servlets/JSP, XML, Tomcat, Apache, Linux,','kw','6');
-INSERT INTO company_det VALUES ('728208','Subversion/CVS, Eclipse(all-in-one), Ant, Struts, FLEX, object-relational
-マッピングツール','pp','7');
+INSERT INTO company_det VALUES ('728208','キーワード:Oracle, Postgres, MySQL, SQL, JDBC, ActionScript, JavaScript, Java/Servlets/JSP, XML, Tomcat, Apache, Linux,','kw','6');
+INSERT INTO company_det VALUES ('728208','Subversion/CVS, Eclipse(all-in-one), Ant, Struts, FLEX, object-relational マッピングツール','pp','7');
 INSERT INTO company_det VALUES ('563336','実績:','pp','0');
 INSERT INTO company_det VALUES ('563336','上記のテクノロジーを基にした用語集の管理システムの実装','bp','1');
-INSERT INTO company_det VALUES ('563336','キーワード:Postgres, SQL, JDBC, ActionScript, Java/Servlets, XML, Tomcat, Apache, Linux,
-Eclipse(all-in-one), NetPath, FLEX/Cairngorm','kw','2');
+INSERT INTO company_det VALUES ('563336','キーワード:Postgres, SQL, JDBC, ActionScript, Java/Servlets, XML, Tomcat, Apache, Linux, Eclipse(all-in-one), NetPath, FLEX/Cairngorm','kw','2');
 INSERT INTO company_det VALUES ('928464','実績:','pp','0');
 INSERT INTO company_det VALUES ('928464','要件定義・ユースケースなどの仕様書の作成、','bp','1');
 INSERT INTO company_det VALUES ('928464','ネットワーク診断ツールを利用し、接続障害発生時に原因究明、','bp','2');
@@ -214,8 +208,7 @@ INSERT INTO company_det VALUES ('928464','カスタマーサービスFAQ作成�
 INSERT INTO company_det VALUES ('928464','情報共有の効率化上、テキスト形式の構造化データの採用推進、','bp','6');
 INSERT INTO company_det VALUES ('928464','海外開発チームとのコミュニケーション円滑化、','bp','7');
 INSERT INTO company_det VALUES ('928464','サービス関連の文言・宣伝の英訳の言い回しなどに対して改善上の指摘事項を提供した','bp','8');
-INSERT INTO company_det VALUES ('928464','キーワード:Ethereal, XML, XSL, XSLT, MS Office Developer Tools, <oXygen> XML
-Editor and XSLT Debugger, プロジェクトマネジメント、受け入れテスト設計・実践','kw','9');
+INSERT INTO company_det VALUES ('928464','キーワード:Ethereal, XML, XSL, XSLT, MS Office Developer Tools, <oXygen> XML Editor and XSLT Debugger, プロジェクトマネジメント、受け入れテスト設計・実践','kw','9');
 INSERT INTO company_det VALUES ('702084','実績:','pp','0');
 INSERT INTO company_det VALUES ('702084','「キカク」という宣伝記事掲載用の入力フォームの実装、','bp','1');
 INSERT INTO company_det VALUES ('702084','フロント・エンドのDHTMLの組み立て、','bp','2');
@@ -223,19 +216,16 @@ INSERT INTO company_det VALUES ('702084','エラー発生対応のプラグイ�
 INSERT INTO company_det VALUES ('702084','入力禁止文字の仕様変更に当たって、フォーム・バックエンドの実装、','bp','4');
 INSERT INTO company_det VALUES ('702084','キカクの入力フォームの機能追加や拡張の実装、','bp','5');
 INSERT INTO company_det VALUES ('702084','開発工程に遵守し、仕様・設計書等の作成','bp','6');
-INSERT INTO company_det VALUES ('702084','キーワード:Oracle, Perl, DHTML, SQL, Apache, Linux, OS X,
-社内独自開発用のツール群、プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、テスト設計・実践','kw','7');
+INSERT INTO company_det VALUES ('702084','キーワード:Oracle, Perl, DHTML, SQL, Apache, Linux, OS X, 社内独自開発用のツール群、プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、テスト設計・実践','kw','7');
 INSERT INTO company_det VALUES ('923521','実績:','pp','0');
 INSERT INTO company_det VALUES ('923521','「Moodle」というLMSを基にした英会話学校ウェブサイトの開発及びリニューワル','pp','1');
-INSERT INTO company_det VALUES ('923521','キーワード:MySQL, PHP, HTML, SQL, Apache, Linux, VI,
-プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','2');
+INSERT INTO company_det VALUES ('923521','キーワード:MySQL, PHP, HTML, SQL, Apache, Linux, VI, プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','2');
 INSERT INTO company_det VALUES ('036420','実績:','pp','0');
 INSERT INTO company_det VALUES ('036420','大手薬品メーカーのJavaベースとしたウェブ系の学習管理システム','pp','1');
 INSERT INTO company_det VALUES ('036420','JavaScriptによるフロント･エンド及びユーザ画面の実装、','bp','2');
 INSERT INTO company_det VALUES ('036420','クライアント側のデータ扱い及び格納に対して仕様設計・実装、','bp','3');
 INSERT INTO company_det VALUES ('036420','その他の開発上の課題発生した場合の問題解決・バグ追跡・修正','bp','4');
-INSERT INTO company_det VALUES ('036420','キーワード:Oracle, SQL, JDBC, DHTML, JavaScript, Java/Servlets/JSP, Tomcat, Apache, IIS,
-Microsoft VSS, Eclipse w/ plug-ins, CruiseControl, Ant, プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント','kw','5');
+INSERT INTO company_det VALUES ('036420','キーワード:Oracle, SQL, JDBC, DHTML, JavaScript, Java/Servlets/JSP, Tomcat, Apache, IIS, Microsoft VSS, Eclipse w/ plug-ins, CruiseControl, Ant, プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント','kw','5');
 INSERT INTO company_det VALUES ('036420','（＊）SCORMとは、Shareable Content Object Reference Modelの略語','pp','6');
 INSERT INTO company_det VALUES ('561436','実績:','pp','0');
 INSERT INTO company_det VALUES ('561436','ファッション撮影企画のディジタル・アセット管理','pp','1');
@@ -249,8 +239,7 @@ INSERT INTO company_det VALUES ('325071','実績:','pp','0');
 INSERT INTO company_det VALUES ('325071','入選チームを実装するため、模倣できる前コンペのコードベースの調査、','bp','1');
 INSERT INTO company_det VALUES ('325071','C++で実装したクライアントをLISPで書き直し、','bp','2');
 INSERT INTO company_det VALUES ('325071','ウィンドウズの入選チームをLINUXへというプラットフォーム移行','bp','3');
-INSERT INTO company_det VALUES ('325071','キーワード:C/C++, LISP, Win2K, Linux, OSX, Emacs, VIM, Allegro, Cell,
-プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント','kw','4');
+INSERT INTO company_det VALUES ('325071','キーワード:C/C++, LISP, Win2K, Linux, OSX, Emacs, VIM, Allegro, Cell, プラットフォーム・システム更新及びデータ移行、プロジェクトマネジメント','kw','4');
 INSERT INTO company_det VALUES ('471207','実績:','pp','0');
 INSERT INTO company_det VALUES ('471207','ソニーのPS3に当たって、最先端研究開発とビジネス戦略を評価をするため、電子ゲーム業界のエキスパートたちにインタビュー・取材。','pp','1');
 INSERT INTO company_det VALUES ('471207','キーワード:英日翻訳、レポート作成、インタビューによる取材・研究、プロジェクトマネジメント','kw','2');
@@ -260,9 +249,7 @@ INSERT INTO company_det VALUES ('221084','FWの使用目標の「達成度」を
 INSERT INTO company_det VALUES ('221084','概念証明のアプリケーションの開発','bp','3');
 INSERT INTO company_det VALUES ('221084','FW使い勝手評価するため、Java系の諸動作環境で配置・テスト','bp','4');
 INSERT INTO company_det VALUES ('221084','Castorという「XMLデータバインディング」系のライブラリを利用して、XML構文解析器の実装。','bp','5');
-INSERT INTO company_det VALUES ('221084','キーワード:DB2, SQL, JDBC, Java/Servlets/JSP, C/C++, XML, XSL, XSLT, Tomcat, Apache,
-WebSphere, Win2K, Linux, Cygwin, CVS, WebSphere(IDE), Ant, Eclipse, Emacs, STL, Visual Studio,
-Qt(TrollTech)、システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','6');
+INSERT INTO company_det VALUES ('221084','キーワード:DB2, SQL, JDBC, Java/Servlets/JSP, C/C++, XML, XSL, XSLT, Tomcat, Apache, WebSphere, Win2K, Linux, Cygwin, CVS, WebSphere(IDE), Ant, Eclipse, Emacs, STL, Visual Studio, Qt(TrollTech)、システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','6');
 INSERT INTO company_det VALUES ('273556','実績:','pp','0');
 INSERT INTO company_det VALUES ('273556','グローバル・リスク・マネジメントの信用取引口座及び「マージン・アカウント」のリアル・タイム監視業務の効率化に対して、エクセルベースの診断ツール群を開発した。既存のテクノロジー資産を活用して、VBA、SQL・ODBCとその他を含め、','pp','1');
 INSERT INTO company_det VALUES ('273556','「Bridge] 」というリアル・タイム市況データベース、','bp','2');
@@ -270,6 +257,5 @@ INSERT INTO company_det VALUES ('273556','従来のメーンフレーム・デ�
 INSERT INTO company_det VALUES ('273556','エクセル電子スプレッドシート','bp','4');
 INSERT INTO company_det VALUES ('273556','という三個のシステムを統合した。','pp','5');
 INSERT INTO company_det VALUES ('273556','リアル・タイム市況データベースから証券価格を取得するため、選択権付取引の株式銘柄の略称を可読形式にした構文解析器も実装した。','bp','6');
-INSERT INTO company_det VALUES ('273556','キーワード:VBA, Windows NT, SQL, Excel, ODBC, Access,
-システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','7');
+INSERT INTO company_det VALUES ('273556','キーワード:VBA, Windows NT, SQL, Excel, ODBC, Access, システム更新及びデータ移行、プロジェクトマネジメント、受け入れテスト設計・実践','kw','7');
 

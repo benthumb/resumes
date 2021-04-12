@@ -1,3 +1,7 @@
 #exclude everything
 .idea/*
 .vscode/*
+./backend/server/served_pqxx/runtime_libs/*
+
+.fake
+.ionide

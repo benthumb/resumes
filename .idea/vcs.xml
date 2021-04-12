@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/server/restbed" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/server/restbed/dependency/asio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/server/restbed/dependency/catch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/server/restbed/dependency/openssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/server/restbed/dependency/openssl/boringssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/server/restbed/dependency/openssl/krb5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend/server/restbed/dependency/openssl/pyca-cryptography" vcs="Git" />
   </component>
 </project>
