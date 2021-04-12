@@ -1,0 +1,10 @@
+libcom_err.so.3
+libcrypto.so.1.1
+libgssapi_krb5.so.2
+libk5crypto.so.3
+libkrb5.so.3
+libkrb5support.so.0
+libpq.so.5
+libserved.so.1.4
+libssl.so.1.1
+libstdc++.so.6
