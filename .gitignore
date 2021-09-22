@@ -2,6 +2,6 @@
 .idea/*
 .vscode/*
 ./backend/server/served_pqxx/runtime_libs/*
-
+./css_drafts/fonts
 .fake
 .ionide

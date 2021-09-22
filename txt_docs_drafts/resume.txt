@@ -1,0 +1,254 @@
+﻿Paul BENTHAM {IT Consultant}
+
+2-11-6 Nishishinshuku, Hasuda City
+Saitama 349-0141
+Japan
+pablo@benthumb.org
+benthumb@paul-bentham-9150304
+
+Professional Interests
+
+Since I got my start in IT over twenty years ago in 2000, the field has evolved; with different trends finding focus.  Now the focus is on trends like the cloud, AI, and ways to enable safe and secure collaboration among distributed participants in networked, virtual workspaces.  My interests are containerization, system automation, algorithms for efficient and productive collaboration, and 'data science' so-called.  As someone who has proficiency in a second language, I also seek to put to good use my capacity to communicate in Japanese: while AI has lowered language barriers, communication is more than competently translated words and phrases: communication, especially when it is difficult, is about negotiation--working to bridge the gap between clashing sets of values--something which, depending on the situation, may not be possible and/or desirable.
+
+Professional Experience
+
+ORGANIZING COMMITTEE OF THE OLYMPIC GAMES (OCOG - Tokyo 2020)
+Deputy Venue IT Manager (DVITM)@KKG/EQP/OLS: Tokyo, Japan
+Ryokoku (Olympic Boxing at Kokugikan), Tokyo
+Apr 2021 – Aug 2021 
+• In my capacity as DVITM, I facilitated the installation a/k/a 'bump in', game time use of, and recovery plus inventory a/k/a 'bump out' of over two hundred KKG venue Technical Equipment Allocation Plan (TEAP) approved Finished Products (FP);
+• Collaborated with and/or supported Functional Areas (FA) Press, Medical, Photography, Broadcast, Operations, Energy, Network, Sports, etc. in bringing the 2020 Olympic Games to the public; 
+• Managed a team of volunteers, IT engineers, and Venue Service Desk Supervisors (VSDS), in coordinating timely incident responses; from problems of network connectivity to the replenishment of printer consumables; 
+• Troubleshot issues around HR/project resources with respect to shift coverage/scheduling, training and orientation, and the procurement of accreditation/venue access credentials;  
+• Drafted documentation combining TEAP-based floor plans and Equipment Deployment Request (EDR) inventory data extracted from in-use ServiceNow platform to orient bump-in, user support, and bump-out activities; and 
+• Communicated with Olympic Games stakeholders in English and Japanese, both spoken and written.  
+
+BURNWOOD ENTERPRISES, INC.
+Executor of Estate@BEI: Hancock, NY
+Dec 2018 – Present
+• Letters of Administration Process 
+• From 2013-2019, in partial overlap with contracted positions I held at various Japanese banks, I managed a business liquidation project for a real estate company (Burnwood Enterprises, Inc.) that owned rental property (assets that were part of my late mother’s estate).
+• In addition to the coordination of the sales of the company’s real estate assets, I also inventoried its debts and implemented a repayment plan, and generally worked to put the financial affairs of the business in order.
+• Prior to the shuttering to the business, I functioned as landlord and property manager, handling the day-to-day affairs of its operation, from the purchase and the installation of a new heating system and other infrastructure upgrades to responding to emergency repair service requests from tenants.
+
+NSD INTERNATIONAL, INC.
+IT Consultant-BA@MUFG: AML Audit - Jersey City, NJ
+White Plains, NY
+Aug 2018 – Nov 2018
+• Tasked with BA role in support of audit and testing of branch payment systems subject to OFAC regulatory oversight.
+• Payment systems in-scope for this audit included the following software products: GPP, Sophis, IntelliTracs, HotScan, and T360.
+• Settlement protocols included SWIFT, CHIPS, FEDWIRE, and ACH/NACHA
+• Duties included the following:
+– Requirements gathering
+– Test script drafting and execution
+– Triage meeting coordination and test execution troubleshooting
+– Defect tracking and analysis
+– Tokyo HO liaising (in both written and spoken Japanese)
+
+NSD INTERNATIONAL, INC.
+IT Consultant-BA/PM@SMBC: Global Payments - New York City
+White Plains, NY
+Jan 2018 – Jul 2018
+• [1] Upgrade of Canada branch’s global payment system (from VGPS to the Java-based JGPS)
+• [2] Development and migration of global payment system module to support the New York branch’s transition to direct settlement of Fedwire transactions. For both items, played a multifaceted role in support of activities related to
+• Project coordination,
+• Development/requirements gathering,
+• Testing/defect tracking and analysis,
+• System migration
+
+NSD INTERNATIONAL, INC.
+IT Consultant-PM@Mizuho: Compliance - Jersey City, NJ
+White Plains, NY
+Mar 2017 – Oct 2017
+• Implementation and roll-out of holding company’s FR-Y9C and 2052a reporting system. Responsible for coordination and support of the following test-phase project activities:
+– integration testing,
+– user acceptance testing,
+– bug/defect tracking, triage, and resolution; and
+– regression testing
+• In addition, support late-phase project clean-up/additional development, inclusive of change control requests driven by missed and/or inadequately realized requirements: actively participate in bridging these gaps through the facilitation of meetings with responsible stakeholders.  In general, work to promote negotiation among participating program members, priority setting in alignment with resource and timeline restrictions, and adherence to big-picture concerns outlined in the program/project charter.
+
+NSD INTERNATIONAL, INC.
+IT Consultant-BA/PM@MUFG: Core Banking Phase II - Jersey City, NJ
+White Plains, NY
+May 2016 – Sep 2016
+• Decommission Mainframe (DM) program: In conjunction with the rollout of OVS–the Hudson program’s primary objective–its secondary objective was an initiative to phase out ISA mainframe systems that OVS supersedes.
+• I was responsible for three project streams under the DM program umbrella:
+– Migration of legacy system databases to data retention server
+– Virtual Tape Library (VTL) backup infrastructure relocation (to west coast subsidiary’s datacenter)
+– Disaster recovery hardware upgrade
+• With respect to realizing objectives of above streams, coordinated meetings with project resources and system end users, tracked project progress, and, in general, worked to ensure that deliverables met requirements with respect to timelines and functional use cases.  
+
+NSD INTERNATIONAL, INC.
+IT Consultant-BA/PM@MUFG: Core Banking Phase I - Jersey City, NJ
+White Plains, NY
+Jun 2014 – Nov 2015
+* Core Banking Replacement (CBR/OVS) Program: with fourteen projects/product tracks under the program umbrella and an international resource base of hundreds of bank staff and consultants organized across four divisional pillars, ISA, SysD, GOC, and PDA, I fulfilled duties as project manager, program administrative assistant, and business analyst.
+• Program financial management: Assist in coordinating the reporting and reconciliation of project/product track expenditures, forecasts, and budgetary change control requests
+• Customer impact analysis (carried out in conjunction with TBD/TBOA): Analyze future and current production views of prior and intra-day SWIFT and BAI messaging Provide analysis and guidance about the scope of affected clients for targeted communications
+• Customer verification (carried out in conjunction with TBD/TBOA): Participate in the coordination of testing planned changes to the delivery format of SWIFT messages in connection with CBR Provide assurance that systems belonging to subsidiary banks, affiliated financial institutions, regional banks in Japan, and corporate customers have been set up to correctly parse the same
+• Product channel management: Oversee all aspects of testing mainframe interface to central directory layer, an information repository and onboarding system for clients and bank employees
+
+PACIFIC SOFTWARE PUBLISHING
+IT Consultant-NOC Monitor/System Administrator/Programmer@PSP: Seattle
+July 2012 – November 2012 (5 months)
+* Transitional systems administration
+Handled the following duties:
+· DNS record management;
+· security breach incident response;
+· translation/interpretation (Japanese);
+· task automation (Perl scripting);
+· SSL certificate administration;
+· client technical support (phone);
+· procedural manual compilation; and
+· system documentation.
+
+INTERNATIONAL TROPICAL TIMBER ORGANIZATION (ITTO)
+IT Consultant-PM/Programmer@ITTO: Tokyo, Japan (work done remotely)
+Jan 2010 – Dec 2011 (~2 years)
+* Data migration project
+· Devised automated migration path;
+· built user-friendly front-end for ExifTool;
+· used XML schema to consolidate relational database table data;
+· programmed ExifTool-based batch routine;
+· did debugging using Java profiler.
+
+VOLVO IT Japan
+IT Consultant-SDET/Programmer@VOLVO: Omiya (Saitama), Japan 
+December 2008 – August 2009 (9 months)
+* Telematics system migration
+· Java-based messaging client:
+o Carried out unit/integration tests;
+o debugged, patched, and extended code;
+o wrote Ant deploy/build scripts;
+o did translation/interpretation (Japanese);
+· Web-based fleet management dashboard:
+o Wrote GUI library how-to, and
+o used API of same to build search forms.
+
+KOKUSAI TECHNOLOGY CENTER
+IT Consultant-PM/Programmer/the gamut@KTC: Tokyo, Japan
+June 2007 – August 2008 (1 year 3 months)
+* Diverse projects at IT outsourcing company
+· Did tech support for enterprise work flow;
+· mentored new hires in programming;
+· introduced /managed internal SNS;
+· developed SaaS prototype: ITSS(*).
+(*) IT Skill Assessment
+
+BITMACHINES
+IT Consultant-PM/Programmer@BIT: Tokyo, Japan
+January 2007 – May 2007 (5 months)
+* Proof-of-concept application integrating
+· smart XML document server NetPath w/
+· RIA platform FLEX.
+
+NIKON SYSTEMS INC.
+IT Consultant-Requirements Analyst@Nikon: Tokyo, Japan
+April 2006 – December 2006 (9 months)
+* Compact Wi-Fi camera and online service
+· Wrote use cases;
+· used Ethereal to debug networking issues;
+· improved localization procedures;
+· planned and executed acceptance tests;
+· contributed to service FAQ;
+· created XML templates w/ XSL style sheets;
+· evangelized merits of XML/structured data;
+· facilitated cooperation with offshore team;
+· helped improve English documentation;
+· highlighted cultural/legal issues.
+
+RECRUIT MEDIA COMMUNICATIONS
+IT Consultant-Programmer@RMC: Tokyo, Japan
+February 2006 – March 2006 (2 months)
+* Content Management system migration
+· Analyzed requirements and wrote code;
+· put together front-end HTML templates;
+· extended scope of error-handling;
+· implemented persistence layer;
+· authored software design documents (Japanese).
+
+MGTECHNOLOGIES AND INVESTMENT
+IT Consultant-Requirements Analyst / Programmer@MGT&I: Tokyo, Japan
+November 2005 – December 2005 (2 months)
+* English school website based around Moodle.
+
+FORTH SPACE INC.
+IT Consultant-Programmer@FSI: Tokyo, Japan
+May 2005 – October 2005 (6 months)
+* SCORM(*) compliant LMS(**)
+· Programmed JSP/DHTML front-end;
+· helped refine data model;
+· performed routine debugging/patching;
+· conducted implemented feature inventory;
+· debugged client-server transmission issues.
+(*) Learning Management System
+(**) Sharable Content Reference Model
+
+FOUNDATION WORLD INC.
+IT Consultant-System Administrator/Programmer@FWI: New York City
+April 2004 – February 2005 (11 months)
+* Creative office website / system administration
+· Served as webmaster and Sys Admin;
+· ran promotional email system (*);
+· managed digital assets for creative projects;
+· translated correspondence (Japanese);
+· hired IT staff and vetted service providers;
+· did business analysis for e-commerce website.
+(*) CAN-SPAM rules compliant
+
+NYC LISP USERS GROUP
+IT Consultant-Requirements Analyst/System Administrator/Programmer@NYCLUG: New York City
+June 2003 – October 2003 (5 months)
+* Robocup soccer simulation league client
+· Led inventory of Robocup client prior art;
+· helped port client (Trilearn) to LISP;
+· advised about migration to LINUX platform;
+
+LEXELNET
+IT Consultant-Programmer@Lexelnet: New York City
+October 2001 – April 2003 (1 year 7 months)
+* Networked Application Engine (NAE) (*)
+· Built proof-of-concept web app;
+· wrote back end stored procedures (DB2);
+· tested NAE in Tomcat and WebSphere;
+· leveraged Castor(**) for XML parsing;
+· logged bugs, wrote patches, suggested enhancements.
+(*) Web application framework for Java
+(**) XML data-binding solution
+
+GOLDMAN SACHS 
+IT Consultant-PM/Requirements Analyst/Programmer@GMS: New York City
+August 2000 – August 2001 (1 year 1 month)
+* Suite of software tools for risk management
+· Acted as project manager/coordinator;
+· built Excel-based applications that used real-time data;
+· trained IRM(*)personnel in VBA and SQL.
+(*) Individual Risk Management
+
+Education 
+University of Maryland Global Campus
+B.S. in Computer Science - Dec 2021
+
+Skills
+Programming Java, Python, Ruby, L A TEX, Bash, Javascript, SQL, λ functions
+Tools nvim, Tmux, Git, macOS, Linux
+Databases Oracle, MySQL, Postgres, DB2
+Languages English, Japanese
+Japan/East Asia
+
+Additional Experience
+Enumerated List: Projects in Chronological Order (2000 – 2012)
+
+1. Pacific Software Publishing, Seattle Transitional systems administration: NOC Monitor / System Administrator / Programmer Jul 2012 – Nov 2012 (5 months)
+2. ITTO, Tokyo, Japan (work done remotely) Data migration project: PM / Programmer 2010 – 2011 (1 year)
+3. Volvo IT Japan, Omiya (Saitama), Japan Telematics system migration: SDET / Programmer Dec 2008 – Aug 2009 (9 months)
+4. Kokusai Technology Center, Tokyo, Japan Diverse projects at IT outsourcing company: PM / Programmer Jun 2007 – Aug 2008 (1 year 3 months)
+5. Bitmachines, Tokyo, Japan Proof-of-concept application: PM / Programmer Jan 2007 – May 2007 (5 months)
+6. Nikon Systems Inc., Tokyo, Japan Compact Wi-Fi camera and online service: Requirements Analyst / Programmer Apr 2006 – Dec 2006 (9 months)
+7. Recruit Media Communications, Tokyo, Japan Content Management system migration: Programmer Feb 2006 – Mar 2006 (2 months)
+8. MG Technologies and Investment, Tokyo, Japan 3English school website based around Moodle: Requirements Analyst / Programmer Nov 2005 – Dec 2005 (2 months)
+9. Forth Space Inc., Tokyo, Japan SCORM (***) compliant LMS(**): Programmer May 2005 – Oct 2005 (6 months) (**) Learning Management System (***) Sharable Content Reference Model
+10. Foundation World Inc., New York City Creative office website / system administration: System Administrator / Programmer [PHP]: Apr 2004 – Feb 2005 (11 months)
+11. NYC LISP Users Group, New York City Robocup soccer simulation league client: Requirements Analyst / System Administrator / Programmer Jun 2003 – Oct 2003 (5 months)
+12. Lexelnet, New York City Networked Application Engine: Programmer Oct 2001 – Apr 2003 (1 year 7 months)
+13. Goldman Sachs, New York City Suite of software tools for risk management: PM / Requirements Analyst / Programmer Aug 2000 – Aug 2001 (1 year 1 month)

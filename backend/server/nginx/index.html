@@ -28,8 +28,6 @@
 			console.log({ value });
 			fetch('http://localhost/contact_info', 
 				{	method: "POST",
-					mode: 'same-origin',
-					credentials: 'same-origin',
 					body: JSON.stringify(value)
 					//headers:  {"Content-type": "application/json; charset=UTF-8"}
 				})

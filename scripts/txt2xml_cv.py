@@ -1,37 +1,38 @@
-#  parse text and add content to res_cv.xml
-from collections import namedtuple
-from recordtype import recordtype
-from enum import IntEnum
-import random
+"""parse text and add content to res_cv.xml"""
 import re
 import sys
 import codecs
 import xml.etree.ElementTree as ET
+from enum import IntEnum
+import random
+from collections import namedtuple
+from recordtype import recordtype
 
 
 class ContactInfo(IntEnum):
+    """ ContactInfo: three args -- name, address, email """
     NAME = 0
     ADDRESS = 1
     EMAIL = 2
 
-
 class Education(IntEnum):
+    """ Education: two args -- dates, school name """
     DATES = 0
     SCHOOL_NAME = 1
 
-
 class Experience(IntEnum):
+    """ Experience: three args -- company name, locale, dates"""
     COMPANY_NAME = 1
     LOCALE = 2
     DATES = 3
 
-
 class ExperienceDetails(IntEnum):
+    """ ExperienceDetails: two args -- details, line_no"""
     DETAILS = 0
     LINE_NO = 1
 
-
-# 会社名 lines after being split according to regex will be put in this record and added to list, i.e, co_lst
+# 会社名 lines after being split according to regex will
+# be put in this record and added to list, i.e, co_lst
 ExperienceDetail = namedtuple("ExperienceDetail", 'details line_no')
 
 # Use _replace(details=...) to 'update' record when merging info from details list
@@ -45,13 +46,14 @@ detail_plus_unmatched = []
 details_consol = []
 
 
-# LIST COMPREHENSIONS FOR THE WIN...
 def extract_headings(det_lst):
+    """LIST COMPREHENSIONS FOR THE WIN..."""
     head_lst = [hd_tpl for hd_tpl in det_lst if hd_tpl.heading]
     return head_lst
 
 
 def detail_headings(head_lst):
+    """DETAIL HEADINGS: one arg - list of detail_headings..."""
     # print(">>>>>>>>>> DETAIL HEADINGS..." + '\n')
     # print(*head_lst, sep='\n')
     if head_lst:
