@@ -8,3 +8,4 @@ libpq.so.5
 libserved.so.1.4
 libssl.so.1.1
 libstdc++.so.6
+libpqxx-6.4.so

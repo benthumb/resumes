@@ -1,13 +1,10 @@
-FROM docker.io/library/debian
-# FROM docker.io/library/alpine
-# FROM docker.io/frolvlad/alpine-gxx
+FROM debian 
+LABEL benthumb.org="posgres_broker_debian"
 COPY runtime_libs /usr/local/lib
-COPY app /usr/local/bin
+COPY compile_libs /usr/local/lib
+RUN mv /usr/local/lib/boost_1_77 /usr/lib
+RUN mkdir /tmp/broker
+COPY app/broker/ /tmp/broker
+COPY configure_debian.sh /tmp/broker 
 EXPOSE 8081
-RUN apt update && apt install -y \
-        nmap \
-        vim
-RUN ldconfig 
-CMD /usr/local/bin/psql_broker
-	
-
+ENTRYPOINT /bin/bash 
