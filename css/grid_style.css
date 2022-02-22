@@ -1,0 +1,219 @@
+.update_form{
+  background-color: #f0fcfc;
+  color: black;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+/* Red border */
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+/* Dashed red border */
+hr.new2 {
+  border-top: 1px dashed red;
+}
+
+/* Dotted red border */
+hr.new3 {
+  border-top: 1px dotted red;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 1px solid red;
+}
+
+/* Large rounded green border */
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
+table{
+	width: 650px;
+}
+
+table, td, th{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+th{
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 11px;
+}
+
+td{
+	font-family: "Noto Sans CJK JP";
+    font-size: 14px;
+}
+
+.year {
+	font-family: "Noto Sans CJK JP";
+    font-size: 12px;
+	width: 10%;
+}
+
+.month {
+	font-family: "Noto Sans CJK JP";
+    font-size: 12px;
+	width: 5%;
+}
+
+.resume_jpn_intro, .resume_jpn_pr{
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 725px;
+	/*grid-auto-rows: minmax(25, auto);*/
+}
+
+.title{
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 14px;
+    text-align: center
+}
+
+.date, .name{
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 9px;
+    text-align: right
+}
+
+h3, .exp_overview_p, .exp_lst_intro {
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.li_pr{
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 9px;
+}
+
+.b-point{
+    margin: 10px;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+}
+
+.p-graph{
+    list-style-type: none;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+}
+
+.resume_jpn_tp {
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 600px 125px;
+	grid-auto-rows: minmax(25, auto);
+
+}
+
+.resume_jpn_btm {
+	display: grid;
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*border-width: 1px 0 0 0;*/
+	/*gap: 10px;*/
+	grid-template-columns: 90px 635px;
+	grid-auto-rows: minmax(25, auto);
+}
+
+.exp_heading {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 1 / 3;
+	grid-row : 1;
+        background-color: #f2f2f2;
+        font-size: 11px;
+}
+
+.business_type {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1 / 2;
+	grid-row : 2;
+	word-wrap : break-word;
+        background-color: #c6ebc9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.employment_type {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	grid-row : 2;
+        background-color: #70af85;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_duration_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row : 3;
+        background-color: #f2f2f2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_details_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	grid-row : 3;
+        background-color: #f2f2f2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_duration {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row : 4 / 6;
+        background-color: #f0e2d0;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_synopsis {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	grid-row : 4;
+        background-color: #ffdf91;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_details {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	padding-right: 15px;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}

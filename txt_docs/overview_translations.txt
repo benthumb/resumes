@@ -1,0 +1,13 @@
+﻿日英堪能のITプロとして、キャリアの次のステージへ進めていく覚悟ができています。情報提供のシステム・プラットフォームの効率化やスケールアップの過程で、一流企業が直面する課題に対応するためにチームを率いていくという、より総合的な役割にシフトしていくことは、私の興味と強みを活かせる仕事だと思います。
+
+現在までの経験・経歴がどういう内容であるかというと、2014年6月より2018年下旬にかけて4年間弱、日本の三大銀行のそれぞれの米拠点らにPM兼BAとして携わっていました。採用形態はいつも「契約社員」として活動し、そして「プロジェクト」という範囲で参加させてもらいました。殆ど例外なく入らせてもらったきっかけはソフト開発循環の結合テストの時期にたどり付き、人材ニーズが一番ピークとなっている期間であるから、タイミング的に私みたいな英日堪能兼情報システムの幅広い知識のあるタイプの人材が特に役に立てるかと思います。
+
+結合テストは理想条件を想定するうえ、エンドツーエンドにて導入したソリューションの動作を総括的にチェックすることです。その中の私の実績は主にトリアージ会議などの対処のコーディネーターとしての責任立場を以て、ソリューションが定められた条件を満たす確認をすることと、あらゆるトラブルが発生した場合には、同トラブルを円滑に解消・解決するためのリーダシップを発揮することでした。
+
+後は、テクニカル面の私の関心はどういうところにあるかといえば、長年いわゆる「関数型プログラミング」に興味を持っています。概念的に関数型系の言語の重要性は何かといえば、初めとしてドメイン固有言語（DSL)を作るには特に熟せやすい理想なツールと位置づけるかと思います。DSLの利用を通してソフト開発の簡易化と期間短縮は達成可能だとよく評価されるのです。BAが書くような人間向けの要件定義書とコードとの間のギャップを閉まることが可能とする「開発武器」です。データベースクエリ用の言語「SQL」はDSLの例として考えれば、DSLのパワーは誰もよく理解できると思います。
+
+ついに、クラウドに関しての私の実装経験レベルは初心者に相当した段階です。これから益々ノーハウを身に付けさせて頂ければと思います。偶然のことに3月頃にコロナの影響で駄目になった内定及び契約はあるドイツ系ワイン生産者兼卸売業者の企業で、情報システムのインフラをクラド化にする旨を以て採用される予定だったのです。レストラン・飲み屋などからの収入への打撃が厳しそうであるため、先送りすることになりました。とはいえ、クラウドはどういうテクノロジーに構成されているかといえば、基本的に「コンテナ」といくらでものコンテナの組み合わせを柔軟に管理する「オーケストレーションツール」となるのです。コンテナに走るマイクロサービス単位でソリューション・アーケテクチャーを蓄積したことが開発アプローチを概念化されると思います。もちろん、細部が肝心です。
+
+As a Japanese-English proficient IT professional, I am ready to move on to the next stage of my career. With the challenge of optimising information delivery systems and platforms, or leading a team responsible for meeting the needs of a growing first company that is scaling up to meet demand, transforming your role into a more encompassing one that reflects your strengths and interests.
+
+I am a bilingual information technology professional ready to take my career to the next plateau: shifting to a more comprehensive role where I have responsibility for leading teams to meet the challenges of a top-tier organization in the process of streamlining and/or scaling up its IT delivery platform is one that plays to my interests and strengths.

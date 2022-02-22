@@ -1,0 +1,4 @@
+FROM scratch 
+EXPOSE 8081
+COPY psql_broker_b88 /
+CMD ["/psql_broker_b88"]

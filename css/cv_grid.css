@@ -1,0 +1,1286 @@
+/* ------------------- CONTACT INFORMATION ------------------ */
+.resume_jpn_tp {
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 280px 30px 200px 190px 110px;
+	grid-auto-rows: minmax(25, auto);
+
+}
+
+/*img {
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}*/
+
+.name_furigana{
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 1;
+	grid-row : 1;
+        background-color: #f2f2f2;
+        font-size: 11px;
+}
+
+.name_kanji {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row-start : 2;
+	grid-row-end : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 20px;
+}
+
+.gender {
+	border: solid #000000;
+	border-width: 1px 0 1px 0;
+	grid-column: 2;
+	grid-row-start : 1;
+	grid-row-end : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 24px;
+}
+
+.era {
+	border: solid #000000;
+	border-width: 1px 0 0 1px;
+	grid-column: 3;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.b_date {
+	border: solid #000000;
+	border-width: 0 0 0 1px;
+	grid-column: 3;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.age {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 3;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.addr_furigana {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 14px;
+}
+
+.zip_code {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.addr_kanji {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start : 6;
+	grid-row-end : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 12px;
+}
+
+.alt_addr_hometown_ph {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.alt_addr_hometown_kanji {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row : 9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 12px;
+}
+
+.home_ph {
+	border: solid #000000;
+	border-width: 1px 0 1px 1px;
+	grid-column: 4;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.fax {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.ans_svs_bool {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.family_msg_svs_bool {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.employer_notify_bool {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.work_ph {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.mobile_ph {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.email_hd {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.email {
+	border: solid #000000;
+	border-width: 0 0 1px 1px;
+	grid-column: 4;
+	grid-row : 9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.headshot {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 5;
+	grid-row-start : 1;
+	grid-row-end : 10;
+        background-color: #f2f2f2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+/* -------------- TRANSPORTATION INFORMATION ------------- */
+.resume_transport {
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 70px 210px 50px 140px 50px 290px;
+	grid-auto-rows: minmax(25, auto);
+}
+
+.close_sta_line_h {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 1;
+	grid-row-start : 1;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.close_sta_line {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.close_sta_line_dst {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 2;
+	grid-row-start: 3;
+	grid-row-end: 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.living_arr_h {
+	border: solid #000000;
+	border-width: 1px 0 1px 0;
+	grid-column: 3;
+	grid-row-start : 1;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.living_arr {
+	border: solid #000000;
+	border-width: 1px 0 1px 1px;
+	grid-column: 4;
+	grid-row-start: 1;
+	grid-row-end: 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.work_area_pref_h {
+	border: solid #000000;
+	border-width: 1px 0 1px 1px;
+	grid-column: 5;
+	grid-row-start : 1;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.work_area_pref_h_exp {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 6;
+	grid-row: 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.work_area_pref {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 6;
+	grid-row-start : 2;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+/* ------------------- EDUCATION DETAILS ------------------ */
+.resume_education {
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 30px 90px 80px 390px 110px 110px;
+	grid-auto-rows: minmax(25, auto);
+}
+
+.edu_hd{
+	border: solid #000000;
+	border-width: 1px 0 1px 1px;
+	grid-column: 1;
+	grid-row-start : 1;
+	grid-row-end : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_entry_date_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 1px;
+	grid-column: 2;
+	grid-row: 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_entry_date {
+	border: solid #000000;
+	border-width: 1px 1px 0 1px;
+	grid-column: 2;
+	grid-row: 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_entry_date1 {
+	border: solid #000000;
+	border-width: 1px 1px 0 1px;
+	grid-column: 2;
+	grid-row: 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 8px;
+}
+
+.edu_entry_date2 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 2;
+	grid-row: 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 8px;
+}
+
+.edu_entry_date3 {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 2;
+	grid-row: 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 8px;
+}
+
+.edu_grad_date_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row: 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_grad_date {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row: 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_grad_date1 {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_grad_date2 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 3;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_grad_date3 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 3;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_sch_name_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 4;
+	grid-row: 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_sch_name {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 4;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_sch_name1 {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 4;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_sch_name2 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 4;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_sch_name3 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 4;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_notes_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_notes {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start : 2;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_hobbies_hd {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 5;
+	grid-row: 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.edu_hobbies {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 6;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+/* ---------------- CERTS LANGUAGE ABILITY --------------- */
+.resume_certs_language {
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 30px 280px 90px 20px 50px 72px 46px 62px 68px 29px 63px;
+	grid-auto-rows: minmax(25, auto);
+}
+
+/* ---------------- CERTS HALF --------------- */
+.cert_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 1px;
+	grid-column: 1;
+	grid-row-start : 1;
+	grid-row-end : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_std_auto_lic_bool {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name_sub_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 2;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_date_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name1 {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 2;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name1_date {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name2 {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 2;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name2_date {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name3 {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 2;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name3_date {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name4 {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 2;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.cert_name4_date {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 3;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.family_struct_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 1px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.family_struct {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+/* ---------------- LANGUAGE HALF --------------- */
+.lang_hd {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 4;
+	grid-row-start : 1;
+	grid-row-end : 9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_sub_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 5;
+	grid-row-start : 1;
+	grid-row-end : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_level_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 6;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_level {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_toeic {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 9;
+	grid-column-end: 12;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_toefl_pbt {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_toefl_ibt {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 9;
+	grid-column-end: 12;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_biz_exp {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 6;
+	grid-column-end: 12;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_read_comp_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_read_comp {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 8;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_phone_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_phone {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 8;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_sales_neg_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_sales_neg {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 8;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_email_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 9;
+	grid-column-end: 11;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_email {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 11;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_meeting_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 9;
+	grid-column-end: 11;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_meeting {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 11;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_lived_abroad_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 9;
+	grid-column-end: 11;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_eng_lived_abroad {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 11;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_other_sub_hd {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 5;
+	grid-row-start : 7;
+	grid-row-end : 9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_other_lang1 {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_other_lang1_level_hd {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column: 9;
+	grid-row : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_other_lang1_level {
+	border: solid #000000;
+	border-width: 1px 1px 0 0;
+	grid-column-start: 10;
+	grid-column-end: 12;
+	grid-row : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_other_lang2 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column-start: 6;
+	grid-column-end: 9;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_other_lang2_level_hd {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 9;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.lang_other_lang2_level {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column-start: 10;
+	grid-column-end: 12;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+/* ------------------- EMPLOYMENT DETAILS ------------------ */
+
+.resume_employment {
+	display: grid;
+/*	border: 1px solid #000000;*/
+	/*grid-template-columns: repeat(1, 1fr);*/
+	/*gap: 10px;*/
+	grid-template-columns: 50px 110px 60px 90px 180px 70px 170px 80px;
+	grid-auto-rows: minmax(25, auto);
+
+}
+
+.emp_co_name_hd {
+	border: solid #000000;
+	border-width: 1px 1px 1px 1px;
+	grid-column: 1;
+	grid-row-start : 1;
+	grid-row-end : 3;
+        background-color: #f2f2f2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_name {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start : 1;
+	grid-row-end : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_industry_feat_hd {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 4;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_industry_feat {
+	border: solid #000000;
+	padding-right: 15px;
+	border-width: 0 1px 1px 0;
+	grid-column: 4;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_business_hd {
+	border: solid #000000;
+/*	padding-right: 15px; */
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row-start : 3;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_business {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start : 3;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_no_emp_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 4;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_no_emp {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 4;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_work_term_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row-start : 5;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_work_term {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_main_duties_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column: 1;
+	grid-row-start : 6;
+	grid-row-end : 9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_main_duties {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row : 6;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_work_loc_hd {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row : 7;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_work_loc {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_salary {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row : 9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_salary_add {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row : 9;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_housing_cost {
+	border: solid #000000;
+	border-width: 0 1px 1px 1px;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row : 10;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+/* ------------ COMPANY 2 ------------ */
+
+.emp_co_name1 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 5;
+	grid-row-start : 1;
+	grid-row-end : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_industry_feat_hd1 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 6;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_industry_feat1 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 6;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_business1 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 5;
+	grid-row-start : 3;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_no_emp_hd1 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 6;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_no_emp1 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 6;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_work_term1 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_main_duties1 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start : 6;
+	grid-row-end : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_salary1 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_notes_add_exp {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start : 9;
+	grid-row-end : 11;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+/* ------------ COMPANY 3 ------------ */
+
+.emp_co_name2 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 7;
+	grid-row-start : 1;
+	grid-row-end : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_industry_feat_hd2 {
+	border: solid #000000;
+	border-width: 1px 1px 1px 0;
+	grid-column: 8;
+	grid-row : 1;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_industry_feat2 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 8;
+	grid-row : 2;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_business2 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 7;
+	grid-row-start : 3;
+	grid-row-end : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_no_emp_hd2 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 8;
+	grid-row : 3;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_no_emp2 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column: 8;
+	grid-row : 4;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_work_term2 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row : 5;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_main_duties2 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start : 6;
+	grid-row-end : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.emp_co_salary2 {
+	border: solid #000000;
+	border-width: 0 1px 1px 0;
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row : 8;
+    	font-family: "ＭＳ 明朝;MS Mincho";
+        font-size: 10px;
+}
+
+.b-point{
+    margin: 10px;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+}
+
+.p-graph{
+    list-style-type: none;
+    font-family: "ＭＳ 明朝;MS Mincho";
+    font-size: 10px;
+}
+

@@ -1,0 +1,35 @@
+FROM gcc
+#FROM ubuntu 
+LABEL benthumb.org="posgres_broker"
+COPY runtime_libs /usr/local/lib
+COPY compile_libs /usr/local/lib
+RUN mv /usr/local/lib/include/served /usr/local/include
+RUN rmdir /usr/local/lib/include
+#RUN mkdir /usr/lib/boost_1_77
+RUN mv /usr/local/lib/boost_1_77 /usr/lib
+RUN mkdir /tmp/broker
+COPY app/broker/ /tmp/broker
+#COPY app/broker/pgsql_broker /usr/local/bin
+#COPY compile_libs /usr/lib
+EXPOSE 8081
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt update 
+#RUN apt upgrade -y 
+RUN apt install -y vim 
+RUN apt install	-y libpqxx-6.4 libpqxx-dev libpq-dev
+#RUN apt install	-y build-essential 
+
+#ENV Boost_INCLUDE_DIR=/usr/lib
+
+# RUN export Boost_INCLUDE_DIRS \
+RUN ldconfig 
+#RUN cd /tmp
+#RUN git clone https://github.com/meltwater/served.git
+#RUN cd served/
+#RUN cp /tmp/CMakeLists.txt . 
+#RUN cmake ../served
+#RUN make
+#RUN make install
+#RUN /tmp/broker/compile_local.sh
+#ENTRYPOINT /usr/local/bin/pgsql_broker
+ENTRYPOINT /bin/bash 
