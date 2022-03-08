@@ -17,4 +17,4 @@
 
 最後に、⑥はこの段階で TBD となります。一般にいうと、システムの実装の取り組みに関しては、コードなどの変更・更新を追跡できるよう、GIT というバージョン管理システムを利用しています。後は、アーカテクチャーをクラウド化にする旨です。⑤の RESTFUL ウェブサービスは正式にいうと、２つの独立したコンテナに走るマイクロサービスらを HTTP によるつないだことに相当します。
 
-![Figure 2: Document Conversion Engine - conceptual design](../main/graphics/2022-02-22_15-25.png)
+![Figure 2: Document Conversion Engine - conceptual design](../main/graphics/document_management_resume2_600dpi.png)
